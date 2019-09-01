@@ -1,0 +1,4 @@
+node_modules
+/lib
+/src/index.bak
+*-error.log
