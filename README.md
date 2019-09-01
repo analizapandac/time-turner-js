@@ -1,6 +1,6 @@
 # Time Turner :clock4:
-[![dependencies Status](https://david-dm.org/analizapandac/time-turner/status.svg)](https://david-dm.org/analizapandac/time-turner)
-[![npm version](https://badge.fury.io/js/time-turner.svg)](https://badge.fury.io/js/time-turner)
+[![dependencies Status](https://david-dm.org/analizapandac/time-turner-js/status.svg)](https://david-dm.org/analizapandac/time-turner-js)
+[![npm version](https://badge.fury.io/js/time-turner-js.svg)](https://badge.fury.io/js/time-turner-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 **time-turner** provides a simple way of rounding time to the nearest minutes (nearest quarter, nearest 30 minutes etc.) in a browser & Node.js.
