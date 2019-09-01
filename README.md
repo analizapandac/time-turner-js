@@ -3,14 +3,14 @@
 [![npm version](https://badge.fury.io/js/time-turner-js.svg)](https://badge.fury.io/js/time-turner-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-**time-turner** provides a simple way of rounding time to the nearest minutes (nearest quarter, nearest 30 minutes etc.) in a browser & Node.js.
+**time-turner-js** provides a simple way of rounding time to the nearest minutes (nearest quarter, nearest 30 minutes etc.) in a browser & Node.js.
 
-The library is available as an [npm package](https://www.npmjs.com/package/time-turner). To install the package run:
+The library is available as an [npm package](https://www.npmjs.com/package/time-turner-js). To install the package run:
 
 ```
-npm install time-turner --save
+npm install time-turner-js --save
 # or with yarn
-yarn add time-turner
+yarn add time-turner-js
 ```
 
 ## **Docs**
@@ -36,10 +36,10 @@ Rounds the given time to the nearest specified minutes
 
 ```js
 // CommonJS
-// var { roundToNearestMinutes } = require('time-turner');
+// var { roundToNearestMinutes } = require('time-turner-js');
 
 // ES2015
-import { roundToNearestMinutes } from 'time-turner';
+import { roundToNearestMinutes } from 'time-turner-js';
 
 roundToNearestMinutes('10:12am', 15); // => '10:15am'
 roundToNearestMinutes('04:06 PM', 10); // => '04:10 PM'
