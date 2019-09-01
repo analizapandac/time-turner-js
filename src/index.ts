@@ -7,7 +7,7 @@ import {
   getFloorAndCeilingMinutes,
   getMinutesIntervalsInAnHour,
   hasValidArguments,
-  replaceAllDigitsWithZeroes
+  replaceAllDigitsWithZeroes,
 } from './utils';
 
 type RoundToNearestMinutesArguments = [string | Date, number];

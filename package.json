@@ -1,6 +1,6 @@
 {
   "name": "time-turner-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern day JavaScript time-rounding utility library",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -10,13 +10,20 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push origin master --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push origin master --tags"
   },
-  "keywords": ["round-time", "closest-minutes", "closest-interval", "utility", "time", "time-rounder"],
+  "keywords": [
+    "round-time",
+    "closest-minutes",
+    "closest-interval",
+    "utility",
+    "time",
+    "time-rounder"
+  ],
   "author": "Ana Liza Pandac <analizapandac@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/analizapandac/time-turner-js",
